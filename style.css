@@ -100,14 +100,17 @@ footer{
 div.leftsidebar{
     grid-area: leftsidebar;
     border: 1px solid #cccccc;
+    overflow: scroll;
 }
 div.rightsidebar{
     grid-area: rightsidebar;
     border: 1px solid #cccccc;
+    overflow: scroll;
 }
 section{
     grid-area: section;
     border: 1px solid #cccccc;
+    overflow: scroll;
 }
 @media only screen and (max-width:550px){
     main{
